@@ -8,21 +8,32 @@ using namespace std;
 
 class Solution {
 public:
-    vector<bool> prefixesDivBy5(vector<int> &A) {
-        vector<bool> result(A.size());
-        int number = 0;
-        for (int i = 0; i < A.size(); i++) {
-            number = (2 * number + A[i]) % 5;
-            result[i] = number % 5 == 0;
+    string removeOuterParentheses(string S) {
+        string result;
+        int size = S.size();
+
+        string part;
+        int leftCount = 0, rightCount = 0;
+        for (int i = 0; i < size; i++) {
+            char cur = S[i];
+            part += cur;
+            if (cur == '(') {
+                leftCount++;
+            } else {
+                rightCount++;
+            }
+            if (leftCount == rightCount) {
+                result += part.substr(1, part.size() - 2);
+                part = "";
+                leftCount = rightCount = 0;
+            }
         }
         return result;
     }
+
 };
 
 int main() {
-    vector<int> A = {0, 1, 1};
-    vector<bool> result = Solution().prefixesDivBy5(A);
-    for (int i = 0; i < result.size(); i++) {
-        cout << result[i] << endl;
-    }
+    string S = "(()())(())(()(()))";
+    cout << Solution().removeOuterParentheses(S) << endl;
 }
