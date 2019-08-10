@@ -7,29 +7,40 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> distributeCandies(int candies, int num_people) {
-        vector<int> result(num_people, 0);
-        int loop = 0;
-        for (int i = 0; i < num_people; i++) {
-            int candy = min(candies, loop * num_people + (i + 1));
-            result[i] += candy;
-            if (i == num_people - 1) {
-                i = -1;
-                loop++;
-            }
-            candies -= candy;
-            if (candies == 0) {
-                break;
+    int lastStoneWeight(vector<int> &stones) {
+        int size = stones.size();
+        if (size == 0) return 0;
+        if (size == 1) return stones[0];
+
+        vector<int> newStones;
+        // max = 8, secondMax = 7, maxI = 4, secondMaxI = 1;
+        int max = 0, secondMax = 0, maxI = 0, secondMaxI = 0;
+        for (int i = 0; i < size; i++) {
+            if (stones[i] >= max) {
+                secondMax = max;
+                secondMaxI = maxI;
+                max = stones[i];
+                maxI = i;
+            } else if (stones[i] >= secondMax) {
+                secondMax = stones[i];
+                secondMaxI = i;
             }
         }
-        return result;
+        for (int i = 0; i < size; i++) {
+            if (i == secondMaxI) {
+                continue;
+            } else if (i == maxI) {
+                newStones.push_back(max - secondMax);
+            } else {
+                newStones.push_back(stones[i]);
+            }
+        }
+        return lastStoneWeight(newStones);
     }
 };
 
 int main() {
-    int candies = 10, num_people = 3;
-    vector<int> result = Solution().distributeCandies(candies, num_people);
-    for (int i = 0; i < result.size(); i++) {
-        cout << result[i] << endl;
-    }
+    vector<int> stones = {2, 7, 4, 1, 8, 1};
+    int result = Solution().lastStoneWeight(stones);
+    cout << result << endl;
 }
