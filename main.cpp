@@ -7,40 +7,17 @@ using namespace std;
 
 class Solution {
 public:
-    int lastStoneWeight(vector<int> &stones) {
-        int size = stones.size();
-        if (size == 0) return 0;
-        if (size == 1) return stones[0];
-
-        vector<int> newStones;
-        // max = 8, secondMax = 7, maxI = 4, secondMaxI = 1;
-        int max = 0, secondMax = 0, maxI = 0, secondMaxI = 0;
-        for (int i = 0; i < size; i++) {
-            if (stones[i] >= max) {
-                secondMax = max;
-                secondMaxI = maxI;
-                max = stones[i];
-                maxI = i;
-            } else if (stones[i] >= secondMax) {
-                secondMax = stones[i];
-                secondMaxI = i;
-            }
+    bool isBoomerang(vector<vector<int>> &points) {
+        for (int i = 0; i < points.size(); i++) {
+            if ((points[i % 3][0] - points[(i + 1) % 3][0] == 0) &&
+                (points[i % 3][1] - points[(i + 1) % 3][1] == 0))
+                return false;
         }
-        for (int i = 0; i < size; i++) {
-            if (i == secondMaxI) {
-                continue;
-            } else if (i == maxI) {
-                newStones.push_back(max - secondMax);
-            } else {
-                newStones.push_back(stones[i]);
-            }
-        }
-        return lastStoneWeight(newStones);
+        return (points[1][1] - points[0][1]) * (points[2][0] - points[1][0]) !=
+               (points[1][0] - points[0][0]) * (points[2][1] - points[1][1]);
     }
 };
 
 int main() {
-    vector<int> stones = {2, 7, 4, 1, 8, 1};
-    int result = Solution().lastStoneWeight(stones);
-    cout << result << endl;
+
 }
