@@ -1,27 +1,40 @@
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 
 class Solution {
 public:
-    int tribonacci(int n) {
-        if (n == 0 || n == 1) {
-            return n;
+    int numEquivDominoPairs(vector<vector<int>> &dominoes) {
+        int size = dominoes.size();
+        if (size == 0) return 0;
+        int innerSize = dominoes[0].size();
+        if (innerSize == 0) return 0;
+
+        int count = 0;
+        unordered_map<int, int> map;
+        for (int i = 0; i < size; i++) {
+            vector<int> ith = dominoes[i];
+            int encode = min(ith[0], ith[1]) * 10 + max(ith[0], ith[1]);
+            int value = map[encode];
+            count += value;
+            if (value != 0) {
+                map[encode] = value + 1;
+            } else {
+                map[encode] = 1;
+            }
         }
-        if (n == 2) {
-            return 1;
-        }
-        vector<int> memo(n + 1);
-        memo[0] = 0;
-        memo[1] = memo[2] = 1;
-        for (int i = 3; i <= n; i++) {
-            memo[i] = memo[i - 3] + memo[i - 2] + memo[i - 1];
-        }
-        return memo[n];
+        return count;
     }
 };
 
 int main() {
-    cout << Solution().tribonacci(3) << endl;
+    vector<vector<int>> dominoes = {
+            {1, 2},
+            {2, 1},
+            {3, 4},
+            {5, 6}
+    };
+    cout << Solution().numEquivDominoPairs(dominoes) << endl;
 }

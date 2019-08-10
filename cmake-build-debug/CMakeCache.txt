@@ -221,6 +221,12 @@ leet_code_cpp_BINARY_DIR:STATIC=/Users/CunjunWang/Desktop/Algorithm/leet-code-cp
 //Value Computed by CMake
 leet_code_cpp_SOURCE_DIR:STATIC=/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp
 
+//Value Computed by CMake
+solution1137_NthTribonacciNumber_BINARY_DIR:STATIC=/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/cmake-build-debug
+
+//Value Computed by CMake
+solution1137_NthTribonacciNumber_SOURCE_DIR:STATIC=/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp
+
 
 ########################
 # INTERNAL cache entries
