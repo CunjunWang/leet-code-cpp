@@ -1,10 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-08-10.
+//
 
 class Solution {
 public:
@@ -36,14 +32,3 @@ public:
         }
     }
 };
-
-int main() {
-    int N = 2;
-    vector<vector<int>> trust = {{1, 2}};
-    cout << Solution().findJudge(N, trust) << endl;
-
-    N = 3;
-    trust = {{1, 3},
-             {2, 3}};
-    cout << Solution().findJudge(N, trust) << endl;
-}

@@ -2,30 +2,30 @@
 // Created by 王存俊 on 2019-08-10.
 //
 
-// TODO:
 class Solution {
 public:
     string removeOuterParentheses(string S) {
         string result;
         int size = S.size();
-        stack<char> stack;
+
+        string part;
+        int leftCount = 0, rightCount = 0;
         for (int i = 0; i < size; i++) {
             char cur = S[i];
+            part += cur;
             if (cur == '(') {
-                stack.push(cur);
+                leftCount++;
             } else {
-                if (stack.size() > 1) {
-                    result += stack.top();
-                    result += cur;
-                    stack.pop();
-                } else {
-                    stack.pop();
-                }
+                rightCount++;
+            }
+            if (leftCount == rightCount) {
+                result += part.substr(1, part.size() - 2);
+                part = "";
+                leftCount = rightCount = 0;
             }
         }
         return result;
     }
-
 };
 
 int main() {
