@@ -13,12 +13,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution1042_FlowerPlantingWithNoAdjacent/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution1018_BinaryPrefixDivisibleBy5/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution1021_RemoveOutermostParentheses/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution1030_MatrixCellsInDistanceOrder/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,23 +36,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="2" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution1018_BinaryPrefixDivisibleBy5/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -70,8 +73,11 @@
         <option value="$PROJECT_DIR$/solution1051_HeightChecker/main.cpp" />
         <option value="$PROJECT_DIR$/solution1103_DistributeCandiesToPeople/main.cpp" />
         <option value="$PROJECT_DIR$/solution1046_LastStoneWeight/main.cpp" />
-        <option value="$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp" />
         <option value="$PROJECT_DIR$/solution1042_FlowerPlantingWithNoAdjacent/main.cpp" />
+        <option value="$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp" />
+        <option value="$PROJECT_DIR$/solution1030_MatrixCellsInDistanceOrder/main.cpp" />
+        <option value="$PROJECT_DIR$/solution1021_RemoveOutermostParentheses/main.cpp" />
+        <option value="$PROJECT_DIR$/solution1018_BinaryPrefixDivisibleBy5/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -95,11 +101,6 @@
             <path>
               <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="solution1042_FlowerPlantingWithNoAdjacent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,19 +153,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565354414970</updated>
-      <workItem from="1565354418676" duration="10752000" />
+      <workItem from="1565354418676" duration="13772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10752000" />
+    <option name="totallyTimeSpent" value="13772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -174,8 +175,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -187,17 +188,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -279,15 +269,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution1037_ValidBoomerang/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution1030_MatrixCellsInDistanceOrder/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution1021_RemoveOutermostParentheses/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution1018_BinaryPrefixDivisibleBy5/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

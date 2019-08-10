@@ -1,10 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
+//
+// Created by 王存俊 on 2019-08-10.
+//
 
-using namespace std;
+// TODO: consider this more
 
 class Solution {
 public:
@@ -18,11 +16,3 @@ public:
         return result;
     }
 };
-
-int main() {
-    vector<int> A = {0, 1, 1};
-    vector<bool> result = Solution().prefixesDivBy5(A);
-    for (int i = 0; i < result.size(); i++) {
-        cout << result[i] << endl;
-    }
-}
