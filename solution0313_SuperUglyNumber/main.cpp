@@ -1,10 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-08-18.
+//
 
 class Solution {
 public:
@@ -29,12 +25,3 @@ public:
         return memo[n - 1];
     }
 };
-
-int main() {
-    int n = 12;
-    vector<int> primes = {2, 7, 13, 19};
-    cout << Solution().nthSuperUglyNumber(n, primes) << endl;
-//    for (int i = 1; i < n + 1; i++) {
-//        cout << Solution().nthSuperUglyNumber(i, primes) << endl;
-//    }
-}
