@@ -1,10 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-08-18.
+//
 
 class Solution {
 private:
@@ -32,7 +28,3 @@ public:
         return memo[n - 1];
     }
 };
-
-int main() {
-
-}
