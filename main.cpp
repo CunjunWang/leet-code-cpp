@@ -9,21 +9,18 @@ using namespace std;
 
 class Solution {
 public:
-    int hIndex(vector<int> &citations) {
-        sort(citations.begin(), citations.end());
-        int size = citations.size();
-        for (int i = 0; i < size; i++) {
-            int remain = size - i;
-            if (citations[i] >= remain) {
-                return remain;
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        for (int i = 0; i < matrix.size(); i++) {
+            for (int j = 0; j < matrix[0].size(); j++) {
+                if (matrix[i][j] == target)
+                    return true;
             }
         }
-        return 0;
+        return false;
     }
 };
 
 
 int main() {
-    vector<int> citations = {3, 0, 6, 1, 5};
-    cout << Solution().hIndex(citations) << endl;
+
 }
