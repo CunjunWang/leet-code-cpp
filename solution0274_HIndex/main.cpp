@@ -1,11 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-#include "TreeNode.h"
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-08-18.
+//
 
 class Solution {
 public:
@@ -21,9 +16,3 @@ public:
         return 0;
     }
 };
-
-
-int main() {
-    vector<int> citations = {3, 0, 6, 1, 5};
-    cout << Solution().hIndex(citations) << endl;
-}

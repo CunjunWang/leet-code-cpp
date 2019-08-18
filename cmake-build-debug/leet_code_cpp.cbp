@@ -122,6 +122,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h">
+			<Option target="solution1137_NthTribonacciNumber"/>
+		</Unit>
 		<Unit filename="/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/main.cpp">
 			<Option target="solution1137_NthTribonacciNumber"/>
 			<Option target="leet_code_cpp"/>
