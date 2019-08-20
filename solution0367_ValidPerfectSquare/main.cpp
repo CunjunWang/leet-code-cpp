@@ -1,13 +1,10 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-#include <sstream>
-#include "TreeNode.h"
+//
+// Created by 王存俊 on 2019-08-20.
+//
 
 using namespace std;
 
+// TODO: binary search; sum of 1 + 3 + 5 + ...
 class Solution {
 public:
     bool isPerfectSquare(int num) {
