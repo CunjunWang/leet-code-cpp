@@ -10,18 +10,25 @@ using namespace std;
 
 class Solution {
 public:
-    bool isPerfectSquare(int num) {
-        if (num == 1) return true;
-        for (long long i = 0; i <= num / 2; i++) {
-            if (i * i == num)
-                return true;
+    bool canConstruct(string ransomNote, string magazine) {
+        unordered_map<char, int> count;
+        for (int i = 0; i < magazine.size(); i++) {
+            char c =  magazine[i];
+            if (count[c] == 0) {
+                count[c] = 1;
+            } else {
+                count[c]++;
+            }
         }
-        return false;
+        for (int i = 0; i < ransomNote.size(); i++) {
+            char c = ransomNote[i];
+            if (count[c] == 0) return false;
+            count[c]--;
+        }
+        return true;
     }
 };
 
 int main() {
-    for (int i = 0; i <= 100; i++) {
-        cout << "number i: " << i << " is a perfect square: " << Solution().isPerfectSquare(i) << endl;
-    }
+
 }
