@@ -3,13 +3,20 @@
 //
 
 class NumArray {
-public:
-    NumArray(vector<int>& nums) {
+private:
+    vector<int> data;
 
+public:
+    NumArray(vector<int> &nums) {
+        data = nums;
     }
 
     int sumRange(int i, int j) {
-
+        int sum = 0;
+        for (; i <= j; i++) {
+            sum += data[i];
+        }
+        return sum;
     }
 };
 
