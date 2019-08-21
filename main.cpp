@@ -10,18 +10,19 @@ using namespace std;
 
 class Solution {
 public:
-    bool isSubsequence(string s, string t) {
-        if (s.size() > t.size()) return false;
-        int k = 0;
-        for (int i = 0; i < t.size(); i++) {
-            if (t[i] == s[k]) {
-                k++;
-            }
+    int arrangeCoins(int n) {
+        int i = 1;
+        int count = 0;
+        while (n >= i) {
+            n = n - i;
+            i++;
+            count++;
         }
-        return k == s.size();
+        return count;
     }
 };
 
 int main() {
-
+    int n = 8;
+    cout << Solution().arrangeCoins(n) << endl;
 }
