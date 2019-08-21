@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0459_RepeatedSubstringPattern/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0504_Base7/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="480">
+              <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -43,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0459_RepeatedSubstringPattern/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0504_Base7/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -118,6 +118,7 @@
         <option value="$PROJECT_DIR$/solution0113_PathSumII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0434_NumberOfSegmentsInAString/main.cpp" />
         <option value="$PROJECT_DIR$/solution0459_RepeatedSubstringPattern/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0504_Base7/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -198,30 +199,30 @@
       <workItem from="1566094216256" duration="13203000" />
       <workItem from="1566270213425" duration="2154000" />
       <workItem from="1566330882364" duration="4398000" />
-      <workItem from="1566394068487" duration="3247000" />
+      <workItem from="1566394068487" duration="3747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43257000" />
+    <option name="totallyTimeSpent" value="43757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19489796" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19489796" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -235,13 +236,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution1128_NumberOfEquivalentDominoPairs/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution1122_RelativeSortArray/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -295,13 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -582,15 +569,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0459_RepeatedSubstringPattern/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="480">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0504_Base7/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="480">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
