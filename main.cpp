@@ -9,20 +9,26 @@
 using namespace std;
 
 class Solution {
+
+private:
+    int count(TreeNode* node, int sum) {
+        if (!node) return 0;
+        int isMe = node->val == sum ? 1 : 0;
+        int left = count(node->left, sum - node->val);
+        int right = count(node->right, sum - node->val);
+        return isMe + left + right;
+    }
+
 public:
-    int arrangeCoins(int n) {
-        int i = 1;
-        int count = 0;
-        while (n >= i) {
-            n = n - i;
-            i++;
-            count++;
-        }
-        return count;
+    int pathSum(TreeNode* root, int sum) {
+        if (!root) return 0;
+        int fromThis = count(root, sum);
+        int fromLeft = pathSum(root->left, sum);
+        int fromRight = pathSum(root->right, sum);
+        return fromThis + fromLeft + fromRight;
     }
 };
 
 int main() {
-    int n = 8;
-    cout << Solution().arrangeCoins(n) << endl;
+
 }
