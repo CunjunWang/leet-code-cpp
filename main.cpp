@@ -4,34 +4,49 @@
 #include <map>
 #include <stack>
 #include <sstream>
+#include <set>
 #include "TreeNode.h"
 
 using namespace std;
 
 class Solution {
-public:
-    int pivotIndex(vector<int> &nums) {
-        if (nums.size() <= 2)
-            return -1;
-        int leftSum = 0;
-        int rightSum = 0;
-        for (int i : nums)
-            rightSum += i;
+private:
+    set<string> res;
 
-        for (int i = 0; i < nums.size(); i++) {
-            if (i >= 1) {
-                leftSum += nums[i - 1];
-                rightSum -= nums[i - 1];
-            }
-            if (rightSum - nums[i] == leftSum) {
-                return i;
-            }
+    void generateResult(string &s, int index) {
+
+        if (index == s.size()) {
+            res.insert(s);
+            return;
         }
-        return -1;
+
+        cout << "index = " << index << ", string is " << s << ", this char is " << s[index] << endl;
+
+        char c = s[index];
+        c = islower(c) ? toupper(c) : tolower(c);
+        generateResult(s, index + 1);
+
+        if (isalpha(c)) {
+            s[index] = c;
+            generateResult(s, index + 1);
+        }
+    }
+
+public:
+    vector<string> letterCasePermutation(string S) {
+        generateResult(S, 0);
+        vector<string> result;
+        for (auto iter = res.begin(); iter != res.end(); iter++) {
+            result.push_back(*iter);
+        }
+        return result;
     }
 };
 
 int main() {
-    vector<int> nums = {1, 2,3};
-    cout << Solution().pivotIndex(nums) << endl;
+    string S = "a1b2";
+    vector<string> res = Solution().letterCasePermutation(S);
+    for (string s : res) {
+        cout << s << " ";
+    }
 }
