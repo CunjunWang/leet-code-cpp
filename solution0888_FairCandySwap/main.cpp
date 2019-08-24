@@ -1,10 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-#include <sstream>
-#include "TreeNode.h"
+//
+// Created by 王存俊 on 2019-08-24.
+//
 
 using namespace std;
 
@@ -29,10 +25,3 @@ public:
         return res;
     }
 };
-
-int main() {
-    vector<vector<int>> matrix = {{1, 2, 3, 4},
-                                  {5, 1, 2, 3},
-                                  {9, 5, 1, 2}};
-    Solution().isToeplitzMatrix(matrix);
-}
