@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-08-24.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -32,6 +36,6 @@ public:
 };
 
 int main() {
-    vector<int> nums = {1, 2,3};
+    vector<int> nums = {1, 2, 3};
     cout << Solution().pivotIndex(nums) << endl;
 }
