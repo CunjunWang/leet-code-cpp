@@ -13,11 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0239_SlidingWindowMaximum/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution0922_SortArrayByParityII/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution1160_FindWordsThatCanBeFormedByCharacters/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -33,11 +29,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="27" />
+            <state relative-caret-position="156">
+              <caret line="16" column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -45,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0922_SortArrayByParityII/main.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution1160_FindWordsThatCanBeFormedByCharacters/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="512">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution1128_NumberOfEquivalentDominoPairs/main.cpp" />
         <option value="$PROJECT_DIR$/solution1122_RelativeSortArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution1078_OccurrencesAfterBigram/main.cpp" />
         <option value="$PROJECT_DIR$/solution1051_HeightChecker/main.cpp" />
@@ -122,9 +117,10 @@
         <option value="$PROJECT_DIR$/solution0459_RepeatedSubstringPattern/main.cpp" />
         <option value="$PROJECT_DIR$/solution0504_Base7/main.cpp" />
         <option value="$PROJECT_DIR$/solution0509_FibonacciNumber/main.cpp" />
-        <option value="$PROJECT_DIR$/solution0922_SortArrayByParityII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0239_SlidingWindowMaximum/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0922_SortArrayByParityII/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/solution1160_FindWordsThatCanBeFormedByCharacters/main.cpp" />
       </list>
     </option>
   </component>
@@ -216,12 +212,12 @@
       <workItem from="1566330882364" duration="4398000" />
       <workItem from="1566394068487" duration="4299000" />
       <workItem from="1566568444753" duration="2486000" />
-      <workItem from="1566659242592" duration="271000" />
+      <workItem from="1566659242592" duration="1595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47066000" />
+    <option name="totallyTimeSpent" value="48390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -253,13 +249,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution1103_DistributeCandiesToPeople/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution1046_LastStoneWeight/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -598,18 +587,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0922_SortArrayByParityII/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="512">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="27" />
+        <state relative-caret-position="156">
+          <caret line="16" column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution1160_FindWordsThatCanBeFormedByCharacters/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
         </state>
       </provider>
     </entry>
