@@ -8,8 +8,6 @@
 
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
 
-/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/Node.h
-
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h
 cstdlib
 -
@@ -39,6 +37,4 @@ TreeNode.h
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h
 ListNode.h
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
-Node.h
-/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/Node.h
 
