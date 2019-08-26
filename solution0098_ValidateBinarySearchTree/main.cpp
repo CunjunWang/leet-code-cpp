@@ -1,3 +1,16 @@
+//
+// Created by 王存俊 on 2019-08-26.
+//
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -30,7 +43,7 @@ public:
         if (vals.size() <= 1)
             return true;
         for (int i = 1; i < vals.size(); i++) {
-            if (vals[i] <= vals[i-1])
+            if (vals[i] <= vals[i - 1])
                 return false;
         }
         return true;
