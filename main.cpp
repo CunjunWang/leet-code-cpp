@@ -13,34 +13,24 @@
 
 using namespace std;
 
-
 class Solution {
 private:
-    int res;
+    void doTraverse(TreeNode *node, vector<int> &list) {
+        if (!node)
+            return;
 
-    int sumNode(TreeNode *node) {
-        if (!node) {
-            return 0;
-        }
-        int left = sumNode(node->left);
-        int right = sumNode(node->right);
-        int tilt = max(left, right) - min(left, right);
-        res += tilt;
-        return left + node->val + right;
+        list.push_back(node->val);
+        doTraverse(node->left, list);
+        doTraverse(node->right, list);
     }
 
 public:
-    int findTilt(TreeNode *root) {
-        sumNode(root);
+    vector<int> preorderTraversal(TreeNode *root) {
+        vector<int> res;
+        doTraverse(root, res);
         return res;
     }
 };
 
 int main() {
-    TreeNode *root = new TreeNode(1);
-    TreeNode *node1 = new TreeNode(2);
-    TreeNode *node2 = new TreeNode(3);
-    root->left = node1;
-    root->right = node2;
-    cout << Solution().findTilt(root) << endl;
 }
