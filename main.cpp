@@ -15,39 +15,31 @@ using namespace std;
 
 class Solution {
 public:
-    vector<string> topKFrequent(vector<string> &words, int k) {
-        map<string, int> record;
-        for (string &s : words) {
-            record[s]++;
-        }
-        map<int, vector<string>> freq;
-        for (auto &it : record) {
-            freq[-1 * it.second].push_back(it.first);
-        }
-        vector<string> res;
-        for (auto it : freq) {
-            int size = it.second.size();
-            int iter = min(size, k);
-            for (int i = 0; i < iter; i++) {
-                res.push_back(it.second[i]);
-                k--;
+    int trap(vector<int> &height) {
+        int left = 0, right = height.size() - 1;
+        int ans = 0, leftMax = 0, rightMax = 0;
+
+        while (left < right) {
+            if (height[left] < height[right]) {
+                leftMax = max(leftMax, height[left]);
+                left++;
+            } else {
+                rightMax = max(rightMax, height[right]);
+                right--;
             }
-            if (k == 0) {
-                break;
+            if (height[left] < leftMax) {
+                ans += leftMax - height[left];
+            }
+            if (height[right] < rightMax) {
+                ans += rightMax - height[right];
             }
         }
 
-        return res;
+        return ans;
     }
 };
 
-
 int main() {
-    vector<string> words = {"the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"};
-    int K = 4;
-    vector<string> res = Solution().topKFrequent(words, K);
-    for (int i = 0; i < res.size(); i++) {
-        cout << res[i] << " ";
-    }
-    cout << endl;
+    vector<int> height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+    cout << Solution().trap(height) << endl;
 }
