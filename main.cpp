@@ -14,23 +14,26 @@
 using namespace std;
 
 class Solution {
-private:
-    void doTraverse(TreeNode *node, vector<int> &list) {
-        if (!node)
-            return;
-
-        list.push_back(node->val);
-        doTraverse(node->left, list);
-        doTraverse(node->right, list);
-    }
-
 public:
-    vector<int> preorderTraversal(TreeNode *root) {
-        vector<int> res;
-        doTraverse(root, res);
-        return res;
+    bool checkRecord(string s) {
+        if (s.size() == 0)
+            return false;
+        int absentCount = 0;
+        int lateCount = 0;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] == 'A') {
+                absentCount++;
+                if (absentCount > 1)
+                    return false;
+            }
+            if (i > 1 && s[i] == 'L' && s[i - 1] == 'L' && s[i - 2] == 'L')
+                return false;
+        }
+        return true;
     }
 };
 
 int main() {
+    cout << Solution().checkRecord("PPALLP") << endl;
+    cout << Solution().checkRecord("PPALLL") << endl;
 }

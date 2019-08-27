@@ -12,8 +12,20 @@
  * };
  */
 class Solution {
-public:
-    vector<int> preorderTraversal(TreeNode* root) {
+private:
+    void doTraverse(TreeNode *node, vector<int> &list) {
+        if (!node)
+            return;
 
+        list.push_back(node->val);
+        doTraverse(node->left, list);
+        doTraverse(node->right, list);
+    }
+
+public:
+    vector<int> preorderTraversal(TreeNode *root) {
+        vector<int> res;
+        doTraverse(root, res);
+        return res;
     }
 };
