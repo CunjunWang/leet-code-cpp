@@ -15,32 +15,13 @@ using namespace std;
 
 class Solution {
 public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> res;
-        generate(n, n, "", res);
-        return res;
-    }
-
-private:
-    void generate(int left, int right, const string &cur, vector<string> &res) {
-
-        if (left == 0 && right == 0) {
-            res.push_back(cur);
-            return;
-        }
-
-        if (left)
-            generate(left - 1, right, cur + '(', res);
-
-        if (right && left < right)
-            generate(left, right - 1, cur + ')', res);
+    int peakIndexInMountainArray(vector<int> &A) {
+        int peak = *max_element(A.begin(), A.end());
+        int index = find(A.begin(), A.end(), peak) - A.begin();
+        return index;
     }
 };
 
 int main() {
-    int n = 3;
-    vector<string> res = Solution().generateParenthesis(n);
-    for (int i = 0; i < res.size(); i++) {
-        cout << res[i] << endl;
-    }
+
 }
