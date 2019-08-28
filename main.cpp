@@ -15,59 +15,79 @@ using namespace std;
 
 class Solution {
 private:
-    int sign = INT_MIN / 2;
+    int m, n;
+    int d[8][2] = {{-1, 0},
+                   {-1, 1},
+                   {0,  1},
+                   {1,  1},
+                   {1,  0},
+                   {1,  -1},
+                   {0,  -1},
+                   {-1, -1}};
+    vector<vector<bool>> visited;
 
-    void setRow(vector<vector<int>> &matrix, int row, int numCols) {
-        for (int j = 0; j < numCols; j++) {
-            if (matrix[row][j] != 0) {
-                matrix[row][j] = sign;
-            }
-        }
-    }
-
-    void setColumn(vector<vector<int>> &matrix, int column, int numRows) {
-        for (int i = 0; i < numRows; i++) {
-            if (matrix[i][column] != 0) {
-                matrix[i][column] = sign;
-            }
-        }
+    bool inArea(int x, int y) {
+        return x >= 0 && x < m && y >= 0 && y < n;
     }
 
 public:
-    void setZeroes(vector<vector<int>> &matrix) {
-        int m = matrix.size();
+    void gameOfLife(vector<vector<int>> &board) {
+        m = board.size();
         if (m == 0) return;
-        int n = matrix[0].size();
+        n = board[0].size();
         if (n == 0) return;
 
+//        visited = vector<vector<bool>>(m, vector<bool>(n, false));
+        int deadSign = 2, liveSign = 3;
+
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (matrix[i][j] == 0) {
-                    setRow(matrix, i, n);
-                    setColumn(matrix, j, m);
+                int liveNeighbor = 0;
+                // int deadNeighbor = 0;
+                bool live = board[i][j] == 1;
+                for (int k = 0; k < 8; k++) {
+                    int newX = i + d[k][0];
+                    int newY = j + d[k][1];
+                    if (inArea(newX, newY) &&
+                        (board[newX][newY] == 1 || board[newX][newY] == 2)) {
+                        liveNeighbor++;
+                    }
+                }
+                if (live) {
+                    if (liveNeighbor < 2 || liveNeighbor > 3) {
+                        board[i][j] = 2;
+                    }
+                } else {
+                    if (liveNeighbor == 3)
+                        board[i][j] = 3;
                 }
             }
         }
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (matrix[i][j] == sign) {
-                    matrix[i][j] = 0;
+                if (board[i][j] == deadSign) {
+                    board[i][j] = 0;
+                } else if (board[i][j] == liveSign) {
+                    board[i][j] = 1;
                 }
             }
         }
+
+        return;
     }
 };
 
 int main() {
-    vector<vector<int>> matrix = {{0, 1, 2, 0},
-                                  {3, 4, 5, 2},
-                                  {1, 3, 1, 5}};
+    vector<vector<int>> board = {{0, 1, 0},
+                                 {0, 0, 1},
+                                 {1, 1, 1},
+                                 {0, 0, 0}};
     // {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
-    Solution().setZeroes(matrix);
-    for (int i = 0; i < matrix.size(); i++) {
-        for (int j = 0; j < matrix[0].size(); j++) {
-            cout << matrix[i][j] << " ";
+    Solution().gameOfLife(board);
+    for (int i = 0; i < board.size(); i++) {
+        for (int j = 0; j < board[0].size(); j++) {
+            cout << board[i][j] << " ";
         }
         cout << endl;
     }
