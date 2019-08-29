@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0252_MeetingRooms/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0572_SubtreeOfAnotherTree/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+            <state relative-caret-position="577">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -42,10 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0252_MeetingRooms/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0572_SubtreeOfAnotherTree/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -73,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0130_SurroundedRegions/main.cpp" />
         <option value="$PROJECT_DIR$/solution0127_WordLadder/main.cpp" />
         <option value="$PROJECT_DIR$/solution0098_ValidateBinarySearchTree/main.cpp" />
         <option value="$PROJECT_DIR$/solution0179_LargestNumber/main.cpp" />
@@ -123,6 +122,7 @@
         <option value="$PROJECT_DIR$/solution0665_NonDecreasingArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution0821_ShortestDistanceToACharacter/main.cpp" />
         <option value="$PROJECT_DIR$/solution0252_MeetingRooms/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0572_SubtreeOfAnotherTree/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -211,30 +211,30 @@
       <workItem from="1566912737902" duration="21022000" />
       <workItem from="1567014802664" duration="5586000" />
       <workItem from="1567087786359" duration="3352000" />
-      <workItem from="1567099460843" duration="5879000" />
+      <workItem from="1567099460843" duration="6611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125779000" />
+    <option name="totallyTimeSpent" value="126511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36734694" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36734694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48979592" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21836735" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21836735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -248,13 +248,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="872" column="27" selection-start-line="872" selection-start-column="27" selection-end-line="872" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -590,15 +583,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0252_MeetingRooms/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="433">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0572_SubtreeOfAnotherTree/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        <state relative-caret-position="577">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
