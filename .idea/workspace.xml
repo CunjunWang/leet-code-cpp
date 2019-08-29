@@ -13,8 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0245_ShortestWordDistanceIII/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -33,30 +32,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" selection-start-line="15" selection-end-line="63" selection-end-column="2" />
+            <state relative-caret-position="45">
+              <caret line="15" selection-start-line="15" selection-end-line="49" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#374#394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0245_ShortestWordDistanceIII/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="36" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -84,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0724_FindPivotIndex/main.cpp" />
         <option value="$PROJECT_DIR$/solution0784_LetterCasePermutation/main.cpp" />
         <option value="$PROJECT_DIR$/solution0532_KdiffPairsInAnArray/main.cpp" />
         <option value="$PROJECT_DIR$/ListNode.h" />
@@ -134,6 +122,7 @@
         <option value="$PROJECT_DIR$/solution0560_SubarraySumEqualsK/main.cpp" />
         <option value="$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp" />
         <option value="$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0245_ShortestWordDistanceIII/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -160,6 +149,11 @@
               <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
               <item name="solution0243_ShortestWordDistance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="solution0244_ShortestWordDistanceII" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,12 +220,12 @@
       <workItem from="1566861781952" duration="5578000" />
       <workItem from="1566912737902" duration="21022000" />
       <workItem from="1567014802664" duration="5586000" />
-      <workItem from="1567087786359" duration="2342000" />
+      <workItem from="1567087786359" duration="3278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118890000" />
+    <option name="totallyTimeSpent" value="119826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -263,13 +257,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0130_SurroundedRegions/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0127_WordLadder/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
@@ -581,20 +568,6 @@
     <entry file="file://$PROJECT_DIR$/solution0244_ShortestWordDistanceII/msin.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -609,13 +582,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="38" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#413#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0245_ShortestWordDistanceIII/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" selection-start-line="15" selection-end-line="63" selection-end-column="2" />
+        <state relative-caret-position="45">
+          <caret line="15" selection-start-line="15" selection-end-line="49" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#374#394#0" expanded="true" />
           </folding>
         </state>
       </provider>
