@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-08-29.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -60,11 +64,5 @@ public:
     }
 };
 
-
 int main() {
-    vector<int> nums = {1, 2, 0};
-    // {1, 2, 0};
-    // {3, 4, -1, -2, 1, 5, 16, 0, 2, 0};
-
-    cout << Solution().firstMissingPositive(nums) << endl;
 }
