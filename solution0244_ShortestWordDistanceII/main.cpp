@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-08-29.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -70,11 +74,6 @@ public:
  */
 
 int main() {
-//    unordered_map<pair<string, string>, int> pairRecord;
-//    pairRecord[make_pair("test1", "test2")] = 1;
-//    for (auto &it : pairRecord) {
-//        cout << it.first.first << " " << it.first.second << ": " << it.second << endl;
-//    }
     vector<string> words = {"practice", "makes", "perfect", "coding", "makes"};
     string word1 = "coding", word2 = "practice";
     WordDistance *obj = new WordDistance(words);
