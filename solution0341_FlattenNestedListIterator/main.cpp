@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-08-30.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -83,6 +87,4 @@ public:
  * while (i.hasNext()) cout << i.next();
  */
 
-int main() {
-    cout << Solution().calculate("1-1+1") << endl;
-}
+int main() {}
