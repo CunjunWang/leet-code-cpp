@@ -13,8 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0010_RegularExpressionMatching/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution0015_3Sum/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0005_LongestPalindromicSubstring/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="55" selection-end-column="2" />
+            <state relative-caret-position="251">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -44,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0010_RegularExpressionMatching/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0005_LongestPalindromicSubstring/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <caret line="9" selection-start-line="4" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -75,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0138_CopyListWithRandomPointer/main.cpp" />
         <option value="$PROJECT_DIR$/solution0133_CloneGraph/main.cpp" />
         <option value="$PROJECT_DIR$/solution0542_01Matrix/main.cpp" />
         <option value="$PROJECT_DIR$/solution0054_SpiralMatrix/main.cpp" />
@@ -125,6 +123,7 @@
         <option value="$PROJECT_DIR$/solution0814_BinaryTreePruning/main.cpp" />
         <option value="$PROJECT_DIR$/solution0015_3Sum/main.cpp" />
         <option value="$PROJECT_DIR$/solution0010_RegularExpressionMatching/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0005_LongestPalindromicSubstring/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -146,6 +145,11 @@
             <path>
               <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="solution0010_RegularExpressionMatching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,30 +218,30 @@
       <workItem from="1567014802664" duration="5586000" />
       <workItem from="1567087786359" duration="3352000" />
       <workItem from="1567099460843" duration="12399000" />
-      <workItem from="1567172283262" duration="1881000" />
+      <workItem from="1567172283262" duration="3899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134180000" />
+    <option name="totallyTimeSpent" value="136198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36734694" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36734694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21836735" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21836735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -250,14 +254,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0055_JumpGame/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0059_SpiralMatrixII/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
@@ -593,15 +601,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0010_RegularExpressionMatching/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0005_LongestPalindromicSubstring/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="9" selection-start-line="4" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="55" selection-end-column="2" />
+        <state relative-caret-position="251">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
