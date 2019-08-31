@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-08-31.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -14,6 +18,7 @@
 
 using namespace std;
 
+// BFS
 class Solution {
 private:
     vector<int> calculateCoordinator(int num, int N) {
