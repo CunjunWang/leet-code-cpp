@@ -13,8 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0222_CountCompleteTreeNodes/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution0270_ClosestBinarySearchTreeValue/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0272_ClosestBinarySearchTreeValueII/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0443_StringCompression/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="48" selection-end-column="2" />
+            <state relative-caret-position="-127">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -44,10 +44,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0270_ClosestBinarySearchTreeValue/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0272_ClosestBinarySearchTreeValueII/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution0443_StringCompression/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -75,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0563_BinaryTreeTilt/main.cpp" />
-        <option value="$PROJECT_DIR$/solution0144_BinaryTreePreorderTraversal/main.cpp" />
         <option value="$PROJECT_DIR$/solution0551_StudentAttendanceRecordI/main.cpp" />
         <option value="$PROJECT_DIR$/solution0836_RectangleOverlap/main.cpp" />
         <option value="$PROJECT_DIR$/solution0671_SecondMinimumNodeInABinaryTree/main.cpp" />
@@ -125,6 +132,8 @@
         <option value="$PROJECT_DIR$/solution0224_BasicCalculator/main.cpp" />
         <option value="$PROJECT_DIR$/solution0222_CountCompleteTreeNodes/main.cpp" />
         <option value="$PROJECT_DIR$/solution0270_ClosestBinarySearchTreeValue/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0443_StringCompression/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0272_ClosestBinarySearchTreeValueII/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -215,30 +224,29 @@
       <workItem from="1567087786359" duration="3352000" />
       <workItem from="1567099460843" duration="12399000" />
       <workItem from="1567172283262" duration="23035000" />
-      <workItem from="1567260170328" duration="596000" />
+      <workItem from="1567260170328" duration="2722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155930000" />
+    <option name="totallyTimeSpent" value="158056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23260073" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23260073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36734694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21836735" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21836735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -251,21 +259,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0973_KClosestPointsToOrigin/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution0692_TopKFrequentWords/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0042_TrappingRainWater/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -588,15 +593,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0270_ClosestBinarySearchTreeValue/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0272_ClosestBinarySearchTreeValueII/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solution0443_StringCompression/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="48" selection-end-column="2" />
+        <state relative-caret-position="-127">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
