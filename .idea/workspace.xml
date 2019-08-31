@@ -13,9 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0256_PaintHouse/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution0684_RedundantConnection/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0265_PaintHouseII/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="45">
+              <caret line="16" selection-start-line="16" selection-end-line="42" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -44,7 +42,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0256_PaintHouse/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0265_PaintHouseII/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
@@ -75,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0078_Subsets/main.cpp" />
         <option value="$PROJECT_DIR$/solution0973_KClosestPointsToOrigin/main.cpp" />
         <option value="$PROJECT_DIR$/solution0692_TopKFrequentWords/main.cpp" />
         <option value="$PROJECT_DIR$/solution0042_TrappingRainWater/main.cpp" />
@@ -125,6 +122,7 @@
         <option value="$PROJECT_DIR$/solution0680_ValidPalindromeII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0791_CustomSortString/main.cpp" />
         <option value="$PROJECT_DIR$/solution0256_PaintHouse/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0265_PaintHouseII/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -216,12 +214,12 @@
       <workItem from="1567087786359" duration="3352000" />
       <workItem from="1567099460843" duration="12399000" />
       <workItem from="1567172283262" duration="23035000" />
-      <workItem from="1567260170328" duration="9934000" />
+      <workItem from="1567260170328" duration="10673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165268000" />
+    <option name="totallyTimeSpent" value="166007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,8 +239,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24684271" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24684271" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34098738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
@@ -266,20 +264,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>32</line>
-          <option name="timeStamp" value="13" />
+          <line>22</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0247_StrobogrammaticNumberII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0733_FloodFill/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -605,6 +596,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0256_PaintHouse/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0265_PaintHouseII/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
@@ -612,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="45">
+          <caret line="16" selection-start-line="16" selection-end-line="42" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
