@@ -18,6 +18,15 @@
 
 using namespace std;
 
+// Sliding Window Solution:
+// [i,j] is the sliding window, and it's the current longest window.
+// Suppose we found current longest window [i, j], then this length will be kept,
+// because, as j++, if the sliding window contains more than 2, then also we will do i++,
+// so that is to say, the current longest length will be kept the same,
+// in another word, when [i,j] reached a maximum, it will not become smaller
+// on the other side, when j++, if the current window contains less than two,
+// then i will not increase (because the if statement), in this way, the longest
+// length of sliding window will get updated
 class Solution {
 public:
     int totalFruit(vector<int> &tree) {

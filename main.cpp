@@ -15,27 +15,33 @@
 using namespace std;
 
 class Solution {
-public:
-    int totalFruit(vector<int> &tree) {
-        int size = tree.size();
-        if (size <= 1)
-            return size;
-
-        unordered_map<int, int> count;
-        int i, j;
-        for (i = 0, j = 0; j < size; ++j) {
-            count[tree[j]]++;
-            if (count.size() > 2) {
-                if (--count[tree[i]] == 0)
-                    count.erase(tree[i]);
-                i++;
-            }
+private:
+    bool isPalindrome(const string &s, int l, int r) {
+        while (l <= r) {
+            if (s[l] != s[r])
+                return false;
+            l++, r--;
         }
-        return j - i;
+        return true;
+    }
+
+public:
+    bool validPalindrome(string s) {
+        int size = s.size();
+        if (size <= 1)
+            return true;
+        int l = 0, r = size - 1;
+        while (l <= r) {
+            if (s[l] != s[r]) {
+                return isPalindrome(s, l + 1, r) || isPalindrome(s, l, r - 1);
+            }
+            l++, r--;
+        }
+        return true;
     }
 };
 
 int main() {
-    vector<int> tree = {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4};
-    cout << Solution().totalFruit(tree) << endl;
+    string s = "abcdecba";
+    cout << Solution().validPalindrome(s) << endl;
 }
