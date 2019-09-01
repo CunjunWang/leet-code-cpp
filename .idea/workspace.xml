@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0301_RemoveInvalidParentheses/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" selection-start-line="16" selection-end-line="124" selection-end-column="2" />
+            <state relative-caret-position="180">
+              <caret line="16" selection-start-line="16" selection-end-line="81" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -44,7 +44,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0301_RemoveInvalidParentheses/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
@@ -92,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0249_GroupShiftedStrings/main.cpp" />
         <option value="$PROJECT_DIR$/solution0560_SubarraySumEqualsK/main.cpp" />
         <option value="$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp" />
         <option value="$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp" />
@@ -142,6 +141,7 @@
         <option value="$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp" />
         <option value="$PROJECT_DIR$/solution0056_MergeIntervals/main.cpp" />
         <option value="$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0301_RemoveInvalidParentheses/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -234,12 +234,12 @@
       <workItem from="1567099460843" duration="12399000" />
       <workItem from="1567172283262" duration="23035000" />
       <workItem from="1567260170328" duration="20254000" />
-      <workItem from="1567354590463" duration="8005000" />
+      <workItem from="1567354590463" duration="9546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183593000" />
+    <option name="totallyTimeSpent" value="185134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,37 +279,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>97</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>61</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0245_ShortestWordDistanceIII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution0359_LoggerRateLimiter/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0605_CanPlaceFlowers/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -631,15 +601,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0301_RemoveInvalidParentheses/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="3235" column="43" selection-start-line="3235" selection-start-column="43" selection-end-line="3235" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="124" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="81" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
