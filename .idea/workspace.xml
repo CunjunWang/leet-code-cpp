@@ -13,7 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0056_MergeIntervals/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -33,14 +34,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+            <state relative-caret-position="210">
+              <caret line="16" selection-start-line="16" selection-end-line="124" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0056_MergeIntervals/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
@@ -56,6 +60,11 @@
       <find>&quot;</find>
       <find>.</find>
       <find>]</find>
+      <find>twenty</find>
+      <find>o</find>
+      <find>ninety</find>
+      <find>nine</find>
+      <find>-</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -63,6 +72,18 @@
       <replace>{</replace>
       <replace>}</replace>
       <replace>}`</replace>
+      <replace>thirty</replace>
+      <replace>forty</replace>
+      <replace>fifty</replace>
+      <replace>sixty</replace>
+      <replace>seventy</replace>
+      <replace>eighty</replace>
+      <replace>ninety</replace>
+      <replace>O</replace>
+      <replace>Forty</replace>
+      <replace>Ninety</replace>
+      <replace>Nine</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -71,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0049_GroupAnagrams/main.cpp" />
         <option value="$PROJECT_DIR$/solution0249_GroupShiftedStrings/main.cpp" />
         <option value="$PROJECT_DIR$/solution0560_SubarraySumEqualsK/main.cpp" />
         <option value="$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp" />
@@ -121,6 +141,7 @@
         <option value="$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp" />
         <option value="$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp" />
         <option value="$PROJECT_DIR$/solution0056_MergeIntervals/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -213,12 +234,12 @@
       <workItem from="1567099460843" duration="12399000" />
       <workItem from="1567172283262" duration="23035000" />
       <workItem from="1567260170328" duration="20254000" />
-      <workItem from="1567354590463" duration="2824000" />
+      <workItem from="1567354590463" duration="8005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178412000" />
+    <option name="totallyTimeSpent" value="183593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,17 +279,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>97</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0244_ShortestWordDistanceII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="62" selection-end-column="13" />
-          <folding>
-            <element signature="e#413#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0245_ShortestWordDistanceIII/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -597,6 +624,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0056_MergeIntervals/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="64" column="2" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0273_IntegerToEnglishWords/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
@@ -604,8 +638,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="124" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
