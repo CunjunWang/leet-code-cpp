@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-09-01.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -21,7 +25,7 @@ private:
     vector<int> data;
     int size;
 
-    void insertionSort(vector<int>& arr, int num) {
+    void insertionSort(vector<int> &arr, int num) {
         arr.emplace_back(num);
         size++;
         for (int i = 1; i < size; i++) {
