@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-09-01.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -13,6 +17,9 @@
 #include "ListNode.h"
 
 using namespace std;
+
+// Solution 1:
+// do Merge 2 list k - 1 times
 
 /**
  * Definition for singly-linked list.
@@ -79,5 +86,7 @@ public:
 };
 
 int main() {
-
+    vector<int> nums1 = {3};
+    vector<int> nums2 = {-2, -1};
+    cout << Solution().findMedianSortedArrays(nums1, nums2) << endl;
 }

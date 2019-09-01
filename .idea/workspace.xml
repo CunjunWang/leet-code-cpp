@@ -13,8 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="24" selection-start-line="24" selection-end-line="51" selection-end-column="2" />
+            <state relative-caret-position="175">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -42,7 +42,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
@@ -73,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0289_GameOfLife/main.cpp" />
         <option value="$PROJECT_DIR$/solution0162_FindPeakElement/main.cpp" />
         <option value="$PROJECT_DIR$/solution0049_GroupAnagrams/main.cpp" />
         <option value="$PROJECT_DIR$/solution0249_GroupShiftedStrings/main.cpp" />
@@ -123,6 +122,7 @@
         <option value="$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution0004_MedianOfTwoSortedArrays/main.cpp" />
         <option value="$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -215,12 +215,12 @@
       <workItem from="1567099460843" duration="12399000" />
       <workItem from="1567172283262" duration="23035000" />
       <workItem from="1567260170328" duration="20254000" />
-      <workItem from="1567354590463" duration="1409000" />
+      <workItem from="1567354590463" duration="2157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176997000" />
+    <option name="totallyTimeSpent" value="177745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,20 +265,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>50</line>
+          <line>77</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="313" column="28" selection-start-line="313" selection-start-column="28" selection-end-line="313" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0243_ShortestWordDistance/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -610,6 +603,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
@@ -617,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" selection-start-line="24" selection-end-line="51" selection-end-column="2" />
+        <state relative-caret-position="175">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
