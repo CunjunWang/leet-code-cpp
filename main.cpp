@@ -14,47 +14,40 @@
 
 using namespace std;
 
-// trivial solution, O(max(m, n)), m = nums1.size(), n = nums2.size()
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 class Solution {
 public:
-    double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
-        vector<int> merged;
-        int size1 = nums1.size(), size2 = nums2.size();
-        int i = 0, j = 0;
-        while (i < size1 && j < size2) {
-            if (nums1[i] <= nums2[j]) {
-                merged.push_back(nums1[i]);
-                i++;
+    ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
+        ListNode *dummyHead = new ListNode(-1);
+        ListNode *temp = dummyHead;
+        while (l1 && l2) {
+            if (l1->val <= l2->val) {
+                temp->next = l1;
+                l1 = l1->next;
             } else {
-                merged.push_back(nums2[j]);
-                j++;
+                temp->next = l2;
+                l2 = l2->next;
             }
+            temp = temp->next;
         }
-
-        if (j == size2 && i < size1) {
-            while (i < size1) {
-                merged.push_back(nums1[i]);
-                i++;
-            }
-        } else if (i == size1 && j < size2) {
-            while (j < size2) {
-                merged.push_back(nums2[j]);
-                j++;
-            }
+        while (l1) {
+            temp->next = l1;
+            l1 = l1->next;
+            temp = temp->next;
         }
-
-//        for (i = 0; i < merged.size(); i++) {
-//            cout << merged[i] << " ";
-//        }
-//        cout << endl;
-
-        int finalSize = merged.size();
-        int mid = finalSize / 2;
-        if (finalSize % 2 == 1) {
-            return merged[mid];
-        } else {
-            return (double) (merged[mid - 1] + merged[mid]) / 2;
+        while (l2) {
+            temp->next = l2;
+            l2 = l2->next;
+            temp = temp->next;
         }
+        return dummyHead->next;
     }
 };
 
