@@ -1,19 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-#include <queue>
-#include <sstream>
-#include <cassert>
-#include <list>
-#include <set>
-#include <unordered_set>
-#include "TreeNode.h"
-#include "ListNode.h"
-#include "Helpers.h"
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-09-03.
+//
 
 class Solution {
 public:
@@ -27,11 +14,7 @@ public:
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
                 return true;
-            }
-
-            if (nums[left] == nums[mid] && nums[mid] == nums[right])
-                left++, right--;
-            else if (nums[mid] < nums[left]) {
+            } else if (nums[mid] < nums[left]) {
                 if (target > nums[mid] && target <= nums[right]) {
                     left = mid + 1;
                 } else {
@@ -48,5 +31,3 @@ public:
         return false;
     }
 };
-
-int main() {}
