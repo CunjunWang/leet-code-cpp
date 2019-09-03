@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="257">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -43,19 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0336_PalindromePairs/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -154,11 +144,11 @@
         <option value="$PROJECT_DIR$/solution0297_SerializeAndDeserializeBinaryTree/main.cpp" />
         <option value="$PROJECT_DIR$/solution0295_FindMedianFromDataStream/main.cpp" />
         <option value="$PROJECT_DIR$/Helpers.h" />
-        <option value="$PROJECT_DIR$/solution0336_PalindromePairs/main.cpp" />
         <option value="$PROJECT_DIR$/solution0686_RepeatedStringMatch/main.cpp" />
         <option value="$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp" />
         <option value="$PROJECT_DIR$/solution0033_SearchInRotatedSortedArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution0081_SearchInRotatedSortedArrayII/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0336_PalindromePairs/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -259,12 +249,12 @@
       <workItem from="1567354590463" duration="12822000" />
       <workItem from="1567440459462" duration="1203000" />
       <workItem from="1567452995486" duration="998000" />
-      <workItem from="1567518548442" duration="7949000" />
+      <workItem from="1567518548442" duration="9477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198560000" />
+    <option name="totallyTimeSpent" value="200088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,7 +266,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="23" width="1239" height="963" extended-state="0" />
+    <frame x="691" y="23" width="1239" height="963" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21303259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,7 +278,7 @@
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46613088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3283582" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.24569461" />
@@ -308,8 +299,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
+          <line>35</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -637,20 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution0336_PalindromePairs/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__hash_table">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -658,10 +635,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solution0336_PalindromePairs/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="257">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
