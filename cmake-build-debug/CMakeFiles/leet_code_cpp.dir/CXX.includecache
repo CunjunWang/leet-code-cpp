@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/Helpers.h
+vector
+-
+
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
 
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h
@@ -39,4 +43,6 @@ TreeNode.h
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h
 ListNode.h
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
+Helpers.h
+/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/Helpers.h
 
