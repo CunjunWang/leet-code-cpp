@@ -13,8 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0076_MinimumWindowSubstring/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="17" selection-start-line="17" selection-end-line="75" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -42,19 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0076_MinimumWindowSubstring/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0686_RepeatedStringMatch/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -99,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0572_SubtreeOfAnotherTree/main.cpp" />
         <option value="$PROJECT_DIR$/solution0729_MyCalendarI/main.cpp" />
         <option value="$PROJECT_DIR$/solution0508_MostFrequentSubtreeSum/main.cpp" />
         <option value="$PROJECT_DIR$/solution0041_FirstMissingPositive/main.cpp" />
@@ -133,7 +125,6 @@
         <option value="$PROJECT_DIR$/solution0348_DesignTicTacToe/main.cpp" />
         <option value="$PROJECT_DIR$/solution0445_AddTwoNumbersII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0535_EncodeAndDecodeTinyURL/main.cpp" />
-        <option value="$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution0004_MedianOfTwoSortedArrays/main.cpp" />
         <option value="$PROJECT_DIR$/solution0021_MergeTwoSortedLists/main.cpp" />
         <option value="$PROJECT_DIR$/solution0023_MergeKSortedLists/main.cpp" />
@@ -145,18 +136,20 @@
         <option value="$PROJECT_DIR$/solution0295_FindMedianFromDataStream/main.cpp" />
         <option value="$PROJECT_DIR$/Helpers.h" />
         <option value="$PROJECT_DIR$/solution0686_RepeatedStringMatch/main.cpp" />
-        <option value="$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp" />
         <option value="$PROJECT_DIR$/solution0033_SearchInRotatedSortedArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution0081_SearchInRotatedSortedArrayII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0336_PalindromePairs/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0076_MinimumWindowSubstring/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="691" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="891" />
     <option name="y" value="23" />
-    <option name="width" value="1239" />
+    <option name="width" value="789" />
     <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,12 +242,13 @@
       <workItem from="1567354590463" duration="12822000" />
       <workItem from="1567440459462" duration="1203000" />
       <workItem from="1567452995486" duration="998000" />
-      <workItem from="1567518548442" duration="9477000" />
+      <workItem from="1567518548442" duration="10548000" />
+      <workItem from="1567610303849" duration="2776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200088000" />
+    <option name="totallyTimeSpent" value="203935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,22 +260,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="691" y="23" width="1239" height="963" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21303259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15811966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39954075" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46613088" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3989796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46530613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3283582" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24569461" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.327551" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21836735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -299,20 +293,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>35</line>
-          <option name="timeStamp" value="5" />
+          <line>29</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0005_LongestPalindromicSubstring/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0015_3Sum/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -520,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0004_MedianOfTwoSortedArrays/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -621,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution0686_RepeatedStringMatch/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__hash_table">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -644,15 +617,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0958_CheckCompletenessOfABinaryTree/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0686_RepeatedStringMatch/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0076_MinimumWindowSubstring/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="75" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

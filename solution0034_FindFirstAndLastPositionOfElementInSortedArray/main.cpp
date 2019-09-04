@@ -15,11 +15,16 @@
 #include <unordered_set>
 #include "TreeNode.h"
 #include "ListNode.h"
+#include "Helpers.h"
 
 using namespace std;
 
-// TODO:
 class Solution {
+private:
+    int searchIndex(vector<int> &nums, int target) {
+
+    }
+
 public:
     vector<int> searchRange(vector<int> &nums, int target) {
         int size = nums.size();
@@ -35,37 +40,17 @@ public:
         }
         int begin = -1, last = -1;
 
-        // find begin first
         int left = 0, right = size - 1;
         while (left <= right) {
-            if (left == right) {
-                begin = left;
-                break;
-            }
             int mid = left + (right - left) / 2;
-            if (nums[mid] >= target) {
-                right = mid;
-            } else {
+            if (nums[mid] < target) {
                 left = mid + 1;
-            }
-        }
-
-        // then find last
-        left = 0, right = size - 1;
-        while (left <= right) {
-            if (left == right) {
-                last = right - 1;
-                break;
-            }
-            int mid = left + (right - left) / 2;
-            if (nums[mid] <= target) {
-                left = mid + 1;
-            } else {
+            } else if (nums[mid] > target) {
                 right = mid - 1;
+            } else {
+                // todo:
             }
         }
-
-        return {begin, last};
     }
 };
 
