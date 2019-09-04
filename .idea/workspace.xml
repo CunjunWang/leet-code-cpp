@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0253_MeetingRoomsII/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0452_MinimumNumberOfArrowsToBurstBalloons/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state relative-caret-position="386">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0253_MeetingRoomsII/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0452_MinimumNumberOfArrowsToBurstBalloons/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
@@ -91,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0508_MostFrequentSubtreeSum/main.cpp" />
         <option value="$PROJECT_DIR$/solution0041_FirstMissingPositive/main.cpp" />
         <option value="$PROJECT_DIR$/solution0814_BinaryTreePruning/main.cpp" />
         <option value="$PROJECT_DIR$/solution0010_RegularExpressionMatching/main.cpp" />
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp" />
         <option value="$PROJECT_DIR$/solution0076_MinimumWindowSubstring/main.cpp" />
         <option value="$PROJECT_DIR$/solution0253_MeetingRoomsII/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0452_MinimumNumberOfArrowsToBurstBalloons/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -242,12 +242,12 @@
       <workItem from="1567440459462" duration="1203000" />
       <workItem from="1567452995486" duration="998000" />
       <workItem from="1567518548442" duration="10548000" />
-      <workItem from="1567610303849" duration="3611000" />
+      <workItem from="1567610303849" duration="4310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204770000" />
+    <option name="totallyTimeSpent" value="205469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,19 +262,19 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15811966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15811966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3989796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3989796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46530613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.327551" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21836735" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21836735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -287,19 +287,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>47</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0016_3SumClosest.cpp" />
     <entry file="file://$PROJECT_DIR$/solution0016_3SumClosest/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -637,6 +625,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0253_MeetingRoomsII/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0452_MinimumNumberOfArrowsToBurstBalloons/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
@@ -644,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        <state relative-caret-position="386">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
