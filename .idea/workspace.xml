@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0254_FactorCombinations/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -30,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="34" lean-forward="true" selection-start-line="17" selection-end-line="34" />
+            <state relative-caret-position="449">
+              <caret line="32" column="38" lean-forward="true" selection-end-line="58" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution0254_FactorCombinations/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="421">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -91,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0031_NextPermutation/main.cpp" />
         <option value="$PROJECT_DIR$/solution0380_InsertDeleteGetRandomO1/main.cpp" />
         <option value="$PROJECT_DIR$/solution0224_BasicCalculator/main.cpp" />
         <option value="$PROJECT_DIR$/solution0222_CountCompleteTreeNodes/main.cpp" />
@@ -142,6 +141,7 @@
         <option value="$PROJECT_DIR$/solution0216_CombinationSumIII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0254_FactorCombinations/main.cpp" />
       </list>
     </option>
   </component>
@@ -163,11 +163,6 @@
             <path>
               <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leet_code_cpp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leet-code-cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="solution0269_AlienDictionary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,12 +238,12 @@
       <workItem from="1567452995486" duration="998000" />
       <workItem from="1567518548442" duration="10548000" />
       <workItem from="1567610303849" duration="10904000" />
-      <workItem from="1567702229134" duration="11995000" />
+      <workItem from="1567702229134" duration="12813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224058000" />
+    <option name="totallyTimeSpent" value="224876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,8 +263,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3989796" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46530613" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3989796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46530613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
@@ -288,25 +283,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>24</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0270_ClosestBinarySearchTreeValue/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0272_ClosestBinarySearchTreeValueII/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -641,18 +618,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="705">
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" lean-forward="true" selection-start-line="17" selection-end-line="34" />
+        <state relative-caret-position="449">
+          <caret line="32" column="38" lean-forward="true" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0254_FactorCombinations/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
         </state>
       </provider>
     </entry>
