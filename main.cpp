@@ -16,37 +16,70 @@
 using namespace std;
 
 class Solution {
-
-private:
-    int timeDiff(string &time1, string &time2) {
-        int m1 = stoi(time1.substr(3));
-        int h1 = stoi(time1.substr(0, 2));
-        int m2 = stoi(time2.substr(3));
-        int h2 = stoi(time2.substr(0, 2));
-        int diff = h1 * 60 + m1 - (h2 * 60 + m2);
-        diff = min(diff, 1440 - diff);
-        return diff;
-    }
-
 public:
-    int findMinDifference(vector<string> &timePoints) {
-        sort(timePoints.begin(), timePoints.end());
-        int size = timePoints.size();
-        int minDiff = 1440;
-        for (int i = 1; i < size; i++) {
-            int diff = abs(timeDiff(timePoints[i-1], timePoints[i]));
-            diff = min(diff, 1440 - diff);
-            minDiff = min(minDiff, diff);
+    vector<int> searchRange(vector<int> &nums, int target) {
+        int size = nums.size();
+        if (size == 0) {
+            return {-1, -1};
         }
-        int diff = abs(timeDiff(timePoints[0], timePoints[size - 1]));
-        diff = min(diff, 1440 - diff);
-        minDiff = min(minDiff, diff);
-        return minDiff;
+        if (size == 1) {
+            if (nums[0] == target) {
+                return {0, 0};
+            } else {
+                return {-1, -1};
+            }
+        }
+        int begin = -1, end = -1;
+        // first find begin
+        int left = 0, right = size - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] >= target) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+            if (right <= left) {
+                if (nums[left] == target) {
+                    begin = left;
+                }
+                break;
+            }
+        }
+        if (begin == -1) {
+            return {-1, -1};
+        }
+        // then find end
+        left = begin + 1, right = size - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > target) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+            if (left >= right) {
+                if (nums[right] == target) {
+                    end = right;
+                } else {
+                    end = right - 1;
+                }
+                break;
+            }
+        }
+        if (end == -1) {
+            return {begin, begin};
+        }
+
+        return {begin, end};
     }
 };
 
 int main() {
-    vector<string> timePoints = {"05:31", "22:08", "00:35"};
-    int res = Solution().findMinDifference(timePoints);
-    cout << res << endl;
+    vector<int> nums = {3, 3, 3};
+    int target = 3;
+    vector<int> res = Solution().searchRange(nums, target);
+    for (int i = 0; i < res.size(); i++) {
+        cout << res[i] << " ";
+    }
 }
