@@ -6,6 +6,7 @@
 #define LEET_CODE_CPP_HELPERS_H
 
 #include <vector>
+#include "ListNode.h"
 
 using namespace std;
 
@@ -17,6 +18,14 @@ void printMatrix(vector<vector<T>> input) {
         }
         cout << endl;
     }
+}
+
+void printLinkedList(ListNode *head) {
+    while (head) {
+        cout << head->val << " -> ";
+        head = head->next;
+    }
+    cout << "NULL" << endl;
 }
 
 #endif //LEET_CODE_CPP_HELPERS_H
