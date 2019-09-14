@@ -13,7 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0148_SortList/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0071_SimplifyPath/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="630">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -42,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0148_SortList/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0071_SimplifyPath/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -90,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0265_PaintHouseII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0957_PrisonCellsAfterNDays/main.cpp" />
         <option value="$PROJECT_DIR$/solution0763_PartitionLabels/main.cpp" />
         <option value="$PROJECT_DIR$/solution0909_SnakesAndLadders/main.cpp" />
@@ -140,6 +140,7 @@
         <option value="$PROJECT_DIR$/Helpers.h" />
         <option value="$PROJECT_DIR$/solution0092_ReverseLinkedListII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0148_SortList/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0071_SimplifyPath/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -246,12 +247,12 @@
       <workItem from="1568052707276" duration="8000" />
       <workItem from="1568052891366" duration="5000" />
       <workItem from="1568384015759" duration="6342000" />
-      <workItem from="1568464573991" duration="3673000" />
+      <workItem from="1568464573991" duration="4230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238903000" />
+    <option name="totallyTimeSpent" value="239460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,19 +267,19 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16910867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16910867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3989796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3989796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37346938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.327551" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21734694" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21734694" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -303,13 +304,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0445_AddTwoNumbersII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0535_EncodeAndDecodeTinyURL/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -652,15 +646,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0148_SortList/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0071_SimplifyPath/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="630">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
