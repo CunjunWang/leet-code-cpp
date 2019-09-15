@@ -4,5 +4,6 @@
 CMakeFiles/leet_code_cpp.dir/main.cpp.o: ../DoublyLinkedListNode.h
 CMakeFiles/leet_code_cpp.dir/main.cpp.o: ../Helpers.h
 CMakeFiles/leet_code_cpp.dir/main.cpp.o: ../ListNode.h
+CMakeFiles/leet_code_cpp.dir/main.cpp.o: ../TreeNode.h
 CMakeFiles/leet_code_cpp.dir/main.cpp.o: ../main.cpp
 
