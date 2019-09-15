@@ -10,6 +10,13 @@
 
 using namespace std;
 
+void printVector(vector<int> input) {
+    for (int i = 0; i < input.size(); i++) {
+        cout << input[i] << " ";
+    }
+    cout << endl;
+}
+
 template<typename T>
 void printMatrix(vector<vector<T>> input) {
     for (int i = 0; i < input.size(); i++) {
