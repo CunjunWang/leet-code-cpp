@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/DoublyLinkedListNode.h
+
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/Helpers.h
 vector
 -
@@ -13,10 +15,6 @@ ListNode.h
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
 
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
-
-/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h
-cstdlib
--
 
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/main.cpp
 iostream
@@ -41,10 +39,8 @@ set
 -
 unordered_set
 -
-TreeNode.h
-/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/TreeNode.h
-ListNode.h
-/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/ListNode.h
+DoublyLinkedListNode.h
+/Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/DoublyLinkedListNode.h
 Helpers.h
 /Users/CunjunWang/Desktop/Algorithm/leet-code-cpp/Helpers.h
 
