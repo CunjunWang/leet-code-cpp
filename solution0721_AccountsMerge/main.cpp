@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019-09-16.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -15,6 +19,7 @@
 
 using namespace std;
 
+// build graph and b
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>> &accounts) {
