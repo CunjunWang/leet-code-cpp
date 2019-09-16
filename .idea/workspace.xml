@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0525_ContiguousArray/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0325_MaximumSizeSubarraySumEqualsK/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0525_ContiguousArray/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0325_MaximumSizeSubarraySumEqualsK/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
@@ -91,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0986_IntervalListIntersections/main.cpp" />
         <option value="$PROJECT_DIR$/solution0547_FriendCircles/main.cpp" />
         <option value="$PROJECT_DIR$/solution0332_ReconstructItinerary/main.cpp" />
         <option value="$PROJECT_DIR$/solution0937_ReorderDataInLogFiles/main.cpp" />
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/solution0755_PourWater/main.cpp" />
         <option value="$PROJECT_DIR$/solution0974_SubarraySumsDivisibleByK/main.cpp" />
         <option value="$PROJECT_DIR$/solution0525_ContiguousArray/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0325_MaximumSizeSubarraySumEqualsK/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -249,12 +249,12 @@
       <workItem from="1568384015759" duration="6342000" />
       <workItem from="1568464573991" duration="17878000" />
       <workItem from="1568553914277" duration="12835000" />
-      <workItem from="1568645300009" duration="1846000" />
+      <workItem from="1568645300009" duration="3804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267789000" />
+    <option name="totallyTimeSpent" value="269747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,8 +274,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3989796" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3989796" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42755103" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
@@ -302,17 +302,15 @@
           <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0216_CombinationSumIII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -640,17 +638,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution0525_ContiguousArray/main.cpp">
+    <entry file="file://$PROJECT_DIR$/solution0325_MaximumSizeSubarraySumEqualsK/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solution0525_ContiguousArray/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="262">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
