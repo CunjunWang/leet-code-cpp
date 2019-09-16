@@ -1,19 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <stack>
-#include <queue>
-#include <sstream>
-#include <cassert>
-#include <list>
-#include <set>
-#include <unordered_set>
-#include "DoublyLinkedListNode.h"
-#include "TreeNode.h"
-#include "Helpers.h"
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-09-16.
+//
 
 /*
  * Given a sorted sequence 1 ... n, to construct a Binary Search Tree (BST)
@@ -45,8 +32,3 @@ public:
         return G[n];
     }
 };
-
-int main() {
-    int n = 3;
-    cout << Solution().numTrees(n) << endl;
-}
