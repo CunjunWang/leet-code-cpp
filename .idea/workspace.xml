@@ -13,11 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0498_DiagonalTraverse/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution0684_RedundantConnection/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution0684_RedundantConnection/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution0721_AccountsMerge/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution0721_AccountsMerge/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +29,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0498_DiagonalTraverse/main.cpp">
+        <entry file="file://$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="585">
+              <caret line="45" column="40" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="45" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -44,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="41" column="2" lean-forward="true" selection-start-line="17" selection-end-line="41" selection-end-column="2" />
+            <state relative-caret-position="298">
+              <caret line="97" column="2" lean-forward="true" selection-start-line="17" selection-end-line="97" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -93,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0039_CombinationSum/main.cpp" />
         <option value="$PROJECT_DIR$/solution0040_CombinationSumII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0216_CombinationSumIII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp" />
@@ -143,6 +140,7 @@
         <option value="$PROJECT_DIR$/solution0684_RedundantConnection/main.cpp" />
         <option value="$PROJECT_DIR$/solution0721_AccountsMerge/main.cpp" />
         <option value="$PROJECT_DIR$/solution0498_DiagonalTraverse/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -150,7 +148,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="954" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +177,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,12 +254,13 @@
       <workItem from="1568384015759" duration="6342000" />
       <workItem from="1568464573991" duration="17878000" />
       <workItem from="1568553914277" duration="12835000" />
-      <workItem from="1568645300009" duration="10717000" />
+      <workItem from="1568645300009" duration="10897000" />
+      <workItem from="1568734931559" duration="2195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276660000" />
+    <option name="totallyTimeSpent" value="279035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,12 +275,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17277168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3989796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3989796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42755103" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,7 +289,7 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.327551" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21734694" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -309,29 +308,10 @@
           <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0364_NestedListWeightSumII/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution0348_DesignTicTacToe/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0362_DesignHitCounter/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -654,15 +634,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution0498_DiagonalTraverse/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="239">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__functional_base">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="41" column="2" lean-forward="true" selection-start-line="17" selection-end-line="41" selection-end-column="2" />
+        <state relative-caret-position="298">
+          <caret line="97" column="2" lean-forward="true" selection-start-line="17" selection-end-line="97" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
