@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0987_VerticalOrderTraversalOfABinaryTree/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -30,23 +30,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="45" column="40" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="120">
+              <caret line="26" selection-start-line="26" selection-end-line="84" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution0987_VerticalOrderTraversalOfABinaryTree/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="97" column="2" lean-forward="true" selection-start-line="17" selection-end-line="97" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -91,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution0040_CombinationSumII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0216_CombinationSumIII/main.cpp" />
         <option value="$PROJECT_DIR$/solution0377_CombinationSumIV/main.cpp" />
         <option value="$PROJECT_DIR$/solution0254_FactorCombinations/main.cpp" />
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/solution0721_AccountsMerge/main.cpp" />
         <option value="$PROJECT_DIR$/solution0498_DiagonalTraverse/main.cpp" />
         <option value="$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp" />
+        <option value="$PROJECT_DIR$/solution0987_VerticalOrderTraversalOfABinaryTree/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -255,12 +255,12 @@
       <workItem from="1568464573991" duration="17878000" />
       <workItem from="1568553914277" duration="12835000" />
       <workItem from="1568645300009" duration="10897000" />
-      <workItem from="1568734931559" duration="2195000" />
+      <workItem from="1568734931559" duration="4455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279035000" />
+    <option name="totallyTimeSpent" value="281295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,20 +312,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution0362_DesignHitCounter/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution0539_MinimumTimeDifference/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution0034_FindFirstAndLastPositionOfElementInSortedArray/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -639,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="45" column="40" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="45" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__functional_base">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -653,10 +632,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solution0355_DesignTwitter/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution0987_VerticalOrderTraversalOfABinaryTree/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_set">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="535" column="25" selection-start-line="535" selection-start-column="25" selection-end-line="535" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="97" column="2" lean-forward="true" selection-start-line="17" selection-end-line="97" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="26" selection-start-line="26" selection-end-line="84" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
