@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0357_CountNumbersWithUniqueDigits/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0131_PalindromePartitioning/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" afterDir="false" />
@@ -114,7 +114,9 @@
       <workItem from="1568926431098" duration="884000" />
       <workItem from="1569340600567" duration="5910000" />
       <workItem from="1569523005891" duration="1246000" />
-      <workItem from="1569525074240" duration="1880000" />
+      <workItem from="1569525074240" duration="2103000" />
+      <workItem from="1569593281330" duration="145000" />
+      <workItem from="1569609469455" duration="1791000" />
     </task>
     <servers />
   </component>
@@ -153,8 +155,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
