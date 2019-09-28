@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0229_MajorityElementII/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0117_PopulatingNextRightPointersInEachNodeII/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -116,7 +116,7 @@
       <workItem from="1569593281330" duration="145000" />
       <workItem from="1569609469455" duration="3256000" />
       <workItem from="1569620906711" duration="983000" />
-      <workItem from="1569633129329" duration="298000" />
+      <workItem from="1569633129329" duration="904000" />
     </task>
     <servers />
   </component>
