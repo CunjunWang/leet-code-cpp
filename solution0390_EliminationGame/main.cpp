@@ -14,15 +14,27 @@
 #include <set>
 #include <unordered_set>
 #include "TreeNode.h"
+#include "ListNode.h"
 #include "Helpers.h"
 
 using namespace std;
 
-// TODO:
 class Solution {
 public:
 	int lastRemaining(int n) {
-
+		bool fromLeft = true;
+		int remain = n;
+		int head = 1;
+		int step = 1;
+		while (remain > 1) {
+			if (fromLeft || remain % 2 == 1) {
+				head = head + step;
+			}
+			remain = remain / 2;
+			step = step * 2;
+			fromLeft = !fromLeft;
+		}
+		return head;
 	}
 };
 
