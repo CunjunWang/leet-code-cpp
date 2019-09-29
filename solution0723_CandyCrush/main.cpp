@@ -14,46 +14,14 @@
 #include <set>
 #include <unordered_set>
 #include "TreeNode.h"
+#include "ListNode.h"
 #include "Helpers.h"
 
 using namespace std;
 
-// TODO:
 class Solution {
 private:
 	int M, N;
-	vector<vector<int>> dir = {{1, 0},
-							   {0, 1}};
-
-	vector<int> getCandidate(int i, int j, vector<vector<int>> &board) {
-		vector<int> res;
-		int target = board[i][j];
-
-		queue<int> todo;
-		todo.push(i * M + j);
-		while (!todo.empty()) {
-			int cur = todo.front();
-			res.emplace_back(cur);
-			todo.pop();
-			int row = cur / M;
-			int col = cur % M;
-			for (int d = 0; d < 2; d++) {
-				int nextR = row + dir[d][0];
-				int nextC = col + dir[d][1];
-				if (inArea(nextR, nextC) && board[nextR][nextC] == target) {
-					todo.push(nextR * M + nextC);
-				}
-			}
-		}
-		if (res.size() > 2)
-			return res;
-		else
-			return {};
-	}
-
-	bool inArea(int x, int y) {
-		return x >= 0 && x < M && y >= 0 && y < N;
-	}
 
 public:
 	vector<vector<int>> candyCrush(vector<vector<int>> &board) {
@@ -62,44 +30,50 @@ public:
 		N = board[0].size();
 		if (N == 0) return board;
 
-		bool canContinue = true;
-
-		while (canContinue) {
-			canContinue = false;
+		while (true) {
+			vector<int> toDelete;
 			// traverse from top-left to bottom-right
 			for (int i = 0; i < M; i++) {
 				for (int j = 0; j < N; j++) {
 					int num = board[i][j];
-					if (!num || num < 0)
+					if (!num)
 						continue;
-					vector<int> candidates = getCandidate(i, j, board);
-					int candidateSize = candidates.size();
-					if (candidateSize > 2) {
-						canContinue = true;
-						for (int k = 0; k < candidateSize; k++) {
-							int cor = candidates[k];
-							int row = cor / M, col = cor % M;
-							board[row][col] = -board[row][col];
+					int downCount = 0, rightCount = 0, startX = i, startY = j;
+					// search downward
+					while (startX < M && board[startX][j] == num) {
+						downCount++;
+						startX++;
+					}
+					if (downCount >= 3) {
+						for (int k = 0; k < downCount; k++) {
+							toDelete.emplace_back((i + k) * M + j);
+						}
+					}
+					// search rightward
+					while (startY < N && board[i][startY] == num) {
+						rightCount++;
+						startY++;
+					}
+					if (rightCount >= 3) {
+						for (int k = 0; k < rightCount; k++) {
+							toDelete.emplace_back(i * M + (j + k));
 						}
 					}
 				}
 			}
+			if (toDelete.empty())
+				break;
 
-			if (canContinue) {
-				for (int j = 0; j < N; j++) {
-					// do gravity
-					vector<int> pos;
-					for (int i = M - 1; i >= 0; i--) {
-						if (board[i][j] > 0) {
-							pos.emplace_back(board[i][j]);
-						}
-					}
-					for (int i = 0; i < pos.size(); i++) {
-						board[M - 1 - i][j] = pos[i];
-					}
-					for (int i = 0; i < M - pos.size(); i++) {
-						board[i][j] = 0;
-					}
+			for (int i : toDelete) {
+				int x = i / M, y = i % M;
+				board[x][y] = 0;
+			}
+
+			for (int j = 0; j < N; ++j) {
+				int t = M - 1;
+				for (int i = M - 1; i >= 0; --i) {
+					if (board[i][j])
+						swap(board[t--][j], board[i][j]);
 				}
 			}
 		}

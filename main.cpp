@@ -16,66 +16,85 @@
 using namespace std;
 
 class Solution {
-public:
-	ListNode *deleteDuplicates(ListNode *head) {
-		if (!head || !head->next)
-			return head;
-		ListNode *dummyHead = new ListNode(-1);
-		dummyHead->next = head;
+private:
+	int M, N;
 
-		ListNode *prev = dummyHead;
-		ListNode *cur = head;
-		while (cur) {
-			if (cur->next) {
-				if (cur->next->val == cur->val) {
-					cur = cur->next;
-				} else {
-					if (prev->next == cur) {
-						cur = cur->next;
-						prev = prev->next;
-					} else {
-						cur = cur->next;
-						prev->next = cur;
+public:
+	vector<vector<int>> candyCrush(vector<vector<int>> &board) {
+		M = board.size();
+		if (M == 0) return board;
+		N = board[0].size();
+		if (N == 0) return board;
+
+		while (true) {
+			vector<int> toDelete;
+			// traverse from top-left to bottom-right
+			for (int i = 0; i < M; i++) {
+				for (int j = 0; j < N; j++) {
+					int num = board[i][j];
+					if (!num)
+						continue;
+					int downCount = 0, rightCount = 0, startX = i, startY = j;
+					// search downward
+					while (startX < M && board[startX][j] == num) {
+						downCount++;
+						startX++;
 					}
-				}
-			} else {
-				if (prev->next == cur) {
-					break;
-				} else {
-					if (prev->next->val == cur->val) {
-						prev->next = cur->next;
-						cur = cur->next;
-					} else {
-						break;
+					if (downCount >= 3) {
+						for (int k = 0; k < downCount; k++) {
+							toDelete.emplace_back((i + k) * M + j);
+						}
+					}
+					// search rightward
+					while (startY < N && board[i][startY] == num) {
+						rightCount++;
+						startY++;
+					}
+					if (rightCount >= 3) {
+						for (int k = 0; k < rightCount; k++) {
+							toDelete.emplace_back(i * M + (j + k));
+						}
 					}
 				}
 			}
+			if (toDelete.empty())
+				break;
+
+			for (int i : toDelete) {
+				int x = i / M, y = i % M;
+				board[x][y] = 0;
+			}
+
+			for (int j = 0; j < N; ++j) {
+				int t = M - 1;
+				for (int i = M - 1; i >= 0; --i) {
+					if (board[i][j])
+						swap(board[t--][j], board[i][j]);
+				}
+			}
 		}
-		return dummyHead->next;
+		return board;
 	}
 };
 
 int main() {
-	ListNode *head = new ListNode(1);
-	ListNode *node1 = new ListNode(1);
-//	ListNode *node2 = new ListNode(3);
-//	ListNode *node3 = new ListNode(3);
-//	ListNode *node4 = new ListNode(4);
-//	ListNode *node5 = new ListNode(4);
-//	ListNode *node6 = new ListNode(5);
+	vector<vector<int>> board =
+			{{1, 3, 5, 5, 2},
+			 {3, 4, 3, 3, 1},
+			 {3, 2, 4, 5, 2},
+			 {2, 4, 4, 5, 5},
+			 {1, 4, 4, 1, 1}};
 
-//	ListNode *head = new ListNode(1);
-//	ListNode *node1 = new ListNode(1);
-//	ListNode *node2 = new ListNode(1);
-//	ListNode *node3 = new ListNode(2);
-//	ListNode *node4 = new ListNode(3);
-
-	head->next = node1;
-//	node1->next = node2;
-//	node2->next = node3;
-//	node3->next = node4;
-//	node4->next = node5;
-//	node5->next = node6;
-	ListNode *res = Solution().deleteDuplicates(head);
-	printLinkedList(res);
+//			{{110, 5,   112, 113, 114},
+//								 {210, 211, 5,   213, 214},
+//								 {310, 311, 3,   313, 314},
+//								 {410, 411, 412, 5,   414},
+//								 {5,   1,   512, 3,   3},
+//								 {610, 4,   1,   613, 614},
+//								 {710, 1,   2,   713, 714},
+//								 {810, 1,   2,   1,   1},
+//								 {1,   1,   2,   2,   2},
+//								 {4,   1,   4,   4,   1014}};
+	vector<vector<int>> res = Solution().candyCrush(board);
+	printMatrix(res);
 }
