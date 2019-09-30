@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019/9/30.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -15,6 +19,7 @@
 
 using namespace std;
 
+// monotonous stack method
 class Solution {
 public:
 	vector<int> nextGreaterElement(vector<int> &nums1, vector<int> &nums2) {
