@@ -13,8 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1696b282-06ef-4f66-8849-2143056f0184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solution0214_ShortestPalindrome/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution0988_SmallestStringStartingFromLeaf/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0280_WiggleSort/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution0662_MaximumWidthOfBinaryTree/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet_code_cpp.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leet_code_cpp" afterDir="false" />
@@ -122,7 +122,7 @@
       <workItem from="1569633129329" duration="3662000" />
       <workItem from="1569778762683" duration="11250000" />
       <workItem from="1569808530446" duration="1066000" />
-      <workItem from="1569853867144" duration="6713000" />
+      <workItem from="1569853867144" duration="8773000" />
     </task>
     <servers />
   </component>
