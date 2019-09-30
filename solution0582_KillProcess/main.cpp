@@ -1,3 +1,7 @@
+//
+// Created by 王存俊 on 2019/9/29.
+//
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -15,6 +19,7 @@
 
 using namespace std;
 
+// DFS
 class Solution {
 public:
 	vector<int> killProcess(vector<int> &pid, vector<int> &ppid, int kill) {
